@@ -1,0 +1,585 @@
+html, body {
+    background-color: white;
+    margin: 0;
+    font-family:  sans-serif;
+    overflow-x: hidden;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar{
+    background-color: black;
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+.nav-bar li{
+    list-style-type: none;
+}
+.left-nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    padding-inline-start: 0;
+}
+.right-nav-bar{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-options{
+    padding-left: 30px;
+    font-size: 18px;
+}
+.menu-options-uber{
+    padding-left: 0px;
+    font-size: 22px;
+}
+.hidden-desktop-view{
+    display: none;
+}
+.hover-blue:hover{
+    color: blue;
+}
+/****************************************************************************************************************/
+
+.oppurtunity{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+.oppurtunity-left-side{
+    padding: 140px 20px 0 0px;
+    width: 30%;
+}
+.oppurtunity-headline{
+    line-height: 60px;
+    font-size: 52px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.oppurtunity-paragraph{
+    margin-bottom: 40px;
+}
+.oppurtunity-picture-mobile{
+    display: none;
+}
+.oppurtunity a{
+    text-decoration: none;
+}
+
+.signup-arrow{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 11px;
+    padding-right: 18px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
+/****************************************************************************************************************/
+
+.why-drive-with-us{
+    margin-top: 200px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    font-size: 36px;
+}
+.clip-art{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headline-tip-one,.headline-tip-one,.headline-tip-three{
+    font-weight:500;
+    font-size: 18px;
+}
+.subline-tip-one,.subline-tip-two,.subline-tip-three{
+    font-weight:400;
+    font-size: 16px;
+}
+.why-three-tips{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.why-three-tips a{
+    text-decoration: none;
+}
+.tip-three{
+    max-width: 312px;
+}
+.tip-one,.tip-two{
+    margin-right: 40px;
+    max-width: 312px;
+}
+.how-driving-works a{
+    display: block;
+    margin-left: 10%;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+/*********************************************************************/
+.earn-on-schedule{
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.right-schedule{
+    margin-left: 20%;
+    padding-top: 60px;
+    width: 30%;
+}
+.subline-right-schedule{
+    font-size: 16px;
+    font-weight: 400;
+}
+.learn-more{
+    font-size: 16px;
+    font-weight: 200;
+}
+.earn-on-schedule a{
+    color: blue;
+    text-decoration: none;
+}
+.headline-right-schedule{
+    font-weight: 500;
+    font-size: 36px;
+}
+/*********************************************************************/
+.needs-sign-up{
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 70px;
+}
+.headline-needs-sign-up{
+    font-size: 36px;
+    font-weight: 500;
+}
+.two-options-needs{
+    color: black;
+    display: flex;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: flex-start;
+    padding-inline-start: 0;
+}
+.to-drive{
+    font-size: 18px;
+    font-weight: 500;
+}
+.two-options-needs a:hover{
+    color: blue;
+}
+.to-deliver{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.two-options-needs .to-drive{
+    margin-right: 20px;
+}
+.two-options-needs li{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+}
+.two-options-needs a{
+    color: rgb(0, 0, 0);
+}
+.needs-one{
+    list-style-type: disc;
+    color: black;
+}
+.need-one a{
+    text-decoration: none;
+}
+.needs{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.line-under-needs-sign-up{
+    width: auto;
+    border-bottom: rgb(0, 0, 0) solid 1px;
+}
+.two-options-needs-with-line a{
+    text-decoration: none;  
+}
+.headline-need-one,.headline-need-two,.headline-need-three{
+    font-size: 18px;
+    font-weight: 500;
+}
+.sublist-need-one,.sublist-need-two,.sublist-need-three{
+    font-size: 16px;
+    font-weight: 200;
+}
+.signup-drive{
+    display: block;
+    margin-left: 10%;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+/*********************************************************************/
+.safety{
+    margin-left: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.headline-safety{
+    font-size: 36px;
+    font-weight: 500;
+}
+.subline-safety{
+    font-size: 16px;
+    font-weight: 400;
+}
+.headline-protection, .headline-help,.headline-community{
+    font-size: 18px;
+    font-weight: 500;
+}
+.subline-protection, .subline-help,.subline-community{
+    font-size: 16px;
+    font-weight: 200;
+}
+.learn-more-safety{
+    margin-left: 10%;
+    margin-top: 100px;
+}
+.learn-more-safety a {
+    text-decoration: none;
+}
+.safetycenter-img,.support-img,.comm-img{
+    width: 48px;
+    height: auto;
+}
+.the-new-app{
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*********************************************************************/
+.line{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+    border-bottom: black solid 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.headline-top-questions{
+    margin-left: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.question-one,.question-two,.question-three,.question-four{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: inherit;
+}
+/*********************************************************************/
+.sign-up-call{
+    display: flex;
+    justify-content: inline-start;
+    margin-left: 10%;
+    margin-top: 150px;
+    margin-right: 60%;
+}
+.headline-signup{
+    font-size: 36px;
+    font-weight: 500;
+}
+.sign-up-call a{
+    color: black;
+    text-decoration: none;
+}
+.arrow-signup{
+    margin-left: auto;
+}
+.line-under-action{
+    width: auto;
+    border-bottom: black solid 1px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-right: 60%;
+} 
+.variations{
+    margin-left: 10%;
+    margin-top: 150px;
+    margin-right: 60%;
+    margin-bottom: 100px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/*********************************************************************/
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 10%;
+}
+.footer-help{
+    display: flex;
+    justify-content: space-between;
+}
+.support-headline{
+    font-size: 36px;
+    font-weight: 500;
+}
+.support-right-side{
+    width: 40%;
+}
+.support-paragraph{
+    font-weight: lighter;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.line-under-support{
+    width: auto;
+    border-bottom: rgb(255, 255, 255) solid 1px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.support-right-side a{
+    text-decoration: none;
+    color: white;
+}
+.get-help{
+    font-weight: 500;
+    font-size: 18px;
+}
+.mid-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.mid-footer a{
+    text-decoration: none;
+    color: white;
+}
+.list-item-mid-footer-uber{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.location,.english{
+    display: flex;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 500;
+}
+.mid-footer li{
+    list-style-type: none;
+}
+.mid-footer-row-one{
+    padding-inline-start: 0px;
+}
+.city-info{
+    font-size: 20px;
+    font-weight: 500;
+}
+.list-item-mid-footer{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.mid-footer-row-three{
+    width: 200px;
+}
+.line-under-support-two{
+    width: auto;
+    border-bottom: rgb(255, 255, 255) solid 1px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.ending-line{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 100;
+}
+.ending-line a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (min-width: 1500px){
+    .nav-bar{
+        padding: 10px 20%;
+    }
+    .oppurtunity, .why-drive-with-us, .why-three-tips,.how-driving-works a,.earn-on-schedule,.needs-sign-up,.needs,.signup-drive,.safety,.line,.headline-top-questions,   .question-one,.question-two,.question-three,.question-four,.sign-up-call,.line-under-action,.variations{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    footer{
+        padding: 50px 20%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .nav-bar{
+        padding: 10px 5%;
+    }
+    .oppurtunity, .why-drive-with-us, .why-three-tips,.how-driving-works a,.earn-on-schedule,.needs-sign-up,.needs,.signup-drive,.safety,.line,.headline-top-questions,   .question-one,.question-two,.question-three,.question-four,.sign-up-call,.line-under-action,.variations{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .nav-bar{
+        font-weight: 200;
+    }
+    .menu-options{
+        padding-left: 40px;
+    }
+    .menu-options-uber{
+        padding-left: 0;
+    }
+    footer{
+        padding: 50px 5%;
+    }
+    .oppurtunity-left-side{
+        width: 40%;
+    }
+    .the-new-app{
+        max-width: 90%;
+    }
+    .right-schedule{
+        margin-left: 10%;
+        padding-top: 30px;
+        width: 30%;
+    }
+    .sign-up-call, .line-under-action{
+        margin-left: 5%;
+        margin-right: 60%;
+        max-width: 40%;
+    }
+}
+@media screen and (max-width: 768px){
+    .hidden-phone-view{
+        display: none; 
+    }
+    .hidden-desktop-view{
+        display: block;
+        font-size: 50px;
+        margin-top: -25px;
+    }
+    .menu-options-uber{
+        display: block;
+    }
+    .sign-up-call, .line-under-action{
+        margin-left: 5%;
+        width: 35%;
+    }
+    .oppurtunity{
+        display: block;
+        position: relative;
+    }
+    .oppurtunity-picture{
+        display: none;
+    }
+    .oppurtunity-picture-mobile{
+        position: absolute;
+        top: 0%;
+        display: block;
+        margin-right: 10%;
+        object-fit: cover;
+        object-position: 50% 0;
+        width: 100%;
+        height: 487px;
+    }
+    .oppurtunity-left-side{
+        padding-top: 500px;
+        width: 70%;
+    }
+    .oppurtunity-headline{
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .clip-art{
+        max-width: 100%;
+    }
+    .oppurtunity-paragraph{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -20px;
+    }
+    .why-drive-with-us{
+        width: 80%;
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .why-three-tips{
+        display: block;
+        margin-top: 50px;
+    }
+    .tip-one,.tip-two,.tip-three{
+        margin-bottom: 40px;
+        max-width: 80%;
+    }
+    .headline-tip-one, .headline-tip-two, .headline-tip-three{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .subline-tip-one, .subline-tip-two, .subline-tip-three, .how-driving-works{
+        font-size: 16px;
+        font-weight: 200;
+        width: 100%;
+    }
+    .earn-on-schedule{
+        display: block;
+    }
+    .happy-man{
+        width: 100%;
+    }
+    .needs{
+        display: block;
+    }
+    .right-schedule{
+        margin-left: 0;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .learn-more{
+        margin-top: 50px;
+    }
+    .sign-up-call{
+        max-width: 100%;
+        width: 60%;
+    }
+    .learn-more{
+        margin-top: 50px;
+    }
+    .need-one,.need-two{
+        margin-bottom: 50px;
+    }
+    .tip-one,.tip-two{
+        margin-bottom: 50px;
+    }
+    .learn-more-safety{
+        margin-left: 5%;
+    }
+}
