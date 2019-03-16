@@ -41,6 +41,7 @@ html, body {
 }
 .hover-blue:hover{
     color: blue;
+    transition: 1s;
 }
 /****************************************************************************************************************/
 
@@ -81,6 +82,11 @@ html, body {
     background-color: blue;
     color: white;
     width: 200px;
+}
+.signup-arrow:hover{
+    background-color: black;
+    transition: .5s;
+    padding-right: 0;
 }
 /****************************************************************************************************************/
 
@@ -187,6 +193,7 @@ html, body {
 }
 .two-options-needs a:hover{
     color: blue;
+    transition: .3s;
 }
 .to-deliver{
     font-size: 18px;
@@ -477,6 +484,9 @@ footer{
         margin-right: 60%;
         max-width: 40%;
     }
+}
+.hover-uner-line:hover{
+    text-decoration: underline;
 }
 @media screen and (max-width: 768px){
     .hidden-phone-view{
